@@ -41,7 +41,6 @@ Este componente carga datos de usuarios desde la API REST de **JSONPlaceholder**
 Este componente carga una galería de imágenes obtenidas desde la API REST **PokeAPI**. Las imágenes se renderizan dinámicamente en tarjetas con información adicional sobre cada Pokémon. Al igual que otros componentes, utiliza el **Shadow DOM** para mantener los estilos encapsulados.
 
 ---
-
 ### Tecnologías Utilizadas
 
 - **HTML5**: Para estructurar la página web.
@@ -72,5 +71,4 @@ Este componente carga una galería de imágenes obtenidas desde la API REST **Po
 - **Componentes reutilizables** que permiten una arquitectura modular.
 - **Datos dinámicos** cargados desde APIs externas (JSONPlaceholder y PokeAPI).
 - **Diseño responsivo**, que se adapta a dispositivos móviles y escritorios.
-
 ---
