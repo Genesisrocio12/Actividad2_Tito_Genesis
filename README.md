@@ -9,6 +9,7 @@
 
 Este proyecto tiene como objetivo la creación de una **aplicación web modular** utilizando **Web Components**, como **Custom Elements** con **Shadow DOM**, **Templates** y **Slots**, tal como lo solicita la actividad. La aplicación incluye los siguientes componentes: un encabezado, pie de página, menú de navegación, contenedor principal, perfil social, tabla personalizada y galería de imágenes. Cada componente ha sido desarrollado de manera autónoma y reutilizable, utilizando JavaScript.
 
+---
 ### Implementación de Componentes
 
 #### 1. **Header Component** (`header-component.js`)
@@ -38,6 +39,8 @@ Este componente carga datos de usuarios desde la API REST de **JSONPlaceholder**
 #### 7. **Gallery Component** (`gallery-component.js`)
 
 Este componente carga una galería de imágenes obtenidas desde la API REST **PokeAPI**. Las imágenes se renderizan dinámicamente en tarjetas con información adicional sobre cada Pokémon. Al igual que otros componentes, utiliza el **Shadow DOM** para mantener los estilos encapsulados.
+
+---
 
 ### Tecnologías Utilizadas
 
@@ -71,18 +74,3 @@ Este componente carga una galería de imágenes obtenidas desde la API REST **Po
 - **Diseño responsivo**, que se adapta a dispositivos móviles y escritorios.
 
 ---
-
-## Revisión de la Actividad
-
-### Cumplimiento de Requisitos:
-
-1. **Configuración del Proyecto**: El proyecto tiene la estructura adecuada, con carpetas para los componentes y datos.
-2. **Header, Footer, Main, Menu**: Todos los componentes son funcionales y encapsulan estilos y estructura en el **Shadow DOM**.
-3. **SocialProfile**: El componente de perfil de usuario muestra información estática, como se solicitó.
-4. **CustomTable**: La tabla carga datos de una API externa (JSONPlaceholder) y muestra la información de los usuarios.
-5. **Gallery**: La galería carga imágenes desde **PokeAPI** y las renderiza dinámicamente.
-
-### Navegación y Estilos:
-
-- El menú de navegación funciona correctamente y permite navegar entre las diferentes páginas de la aplicación sin recargar.
-- Todos los componentes tienen sus propios estilos encapsulados dentro del **Shadow DOM**, lo que garantiza que no haya conflictos con otros elementos de la página.
