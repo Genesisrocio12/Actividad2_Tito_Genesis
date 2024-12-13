@@ -7,7 +7,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto tiene como objetivo la creación de una **aplicación web modular** utilizando **Web Components**, como **Custom Elements** con **Shadow DOM**, **Templates** y **Slots**, tal como lo solicita la actividad. La aplicación incluye los siguientes componentes: un encabezado, pie de página, menú de navegación, contenedor principal, perfil social, tabla personalizada y galería de imágenes. Cada componente ha sido desarrollado de manera autónoma y reutilizable, utilizando JavaScript puro (vanilla).
+Este proyecto tiene como objetivo la creación de una **aplicación web modular** utilizando **Web Components**, como **Custom Elements** con **Shadow DOM**, **Templates** y **Slots**, tal como lo solicita la actividad. La aplicación incluye los siguientes componentes: un encabezado, pie de página, menú de navegación, contenedor principal, perfil social, tabla personalizada y galería de imágenes. Cada componente ha sido desarrollado de manera autónoma y reutilizable, utilizando JavaScript.
 
 ### Implementación de Componentes
 
