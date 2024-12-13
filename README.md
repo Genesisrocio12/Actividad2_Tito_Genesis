@@ -43,7 +43,7 @@ Este componente carga una galería de imágenes obtenidas desde la API REST **Po
 ---
 ### Tecnologías Utilizadas
 
-- **HTML5**: Para estructurar la página web.
+- **HTML**: Para estructurar la página web.
 - **JavaScript (Web Components)**: Para crear los componentes reutilizables y manejar la lógica de la aplicación.
 - **Shadow DOM**: Para encapsular estilos y evitar que afecten a otros elementos de la página.
 - **Custom Elements**: Para crear nuevos elementos HTML personalizados.
