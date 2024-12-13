@@ -1,9 +1,9 @@
-# Proyecto: Aplicación Web con Web Components
+# Proyecto: Creación de Componentes Web Personalizados
 
 **Nombre:** Genesis Tito  
 **Materia:** PROGRAMACIÓN INTEGRAL de COMPONENTES WEB  
 **NRC:** 1406  
-**Fecha:** Diciembre 2024  
+**Fecha:** Diciembre 2024
 
 ## Descripción del Proyecto
 
@@ -14,15 +14,15 @@ Este proyecto tiene como objetivo la creación de una **aplicación web modular*
 La actividad2 tiene la siguiente estructura:
 
 ACTIVIDAD2_TITO_GENESIS/
-│ ├── index.html # Archivo principal que carga la aplicación 
-├── README.md # Este archivo con la descripción del proyecto 
-│── components/ # Carpeta que contiene todos los componentes web 
-├── header-component.js # Componente para el encabezado 
-├── footer-component.js # Componente para el pie de página 
-├── main-component.js # Componente para el contenido principal 
-├── menu-component.js # Componente para el menú de navegación 
-├── social-profile-component.js # Componente para el perfil social del usuario 
-├── custom-table-component.js # Componente para la tabla dinámica de datos 
+│ ├── index.html # Archivo principal que carga la aplicación
+├── README.md # Este archivo con la descripción del proyecto
+│── components/ # Carpeta que contiene todos los componentes web
+├── header-component.js # Componente para el encabezado
+├── footer-component.js # Componente para el pie de página
+├── main-component.js # Componente para el contenido principal
+├── menu-component.js # Componente para el menú de navegación
+├── social-profile-component.js # Componente para el perfil social del usuario
+├── custom-table-component.js # Componente para la tabla dinámica de datos
 ├── gallery-component.js # Componente para la galería de imágenes
 
 ### Implementación de Componentes
@@ -71,9 +71,10 @@ Este componente carga una galería de imágenes obtenidas desde la API REST **Po
 ### Instalación
 
 1. Clonar el repositorio:
-    ```bash
-    git clone <url-del-repositorio>
-    ```
+
+   ```bash
+   git clone <url-del-repositorio>
+   ```
 
 2. Abrir el archivo `index.html` directamente en un navegador.  
    (No requiere instalación de dependencias).
