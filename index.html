@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Define el conjunto de caracteres utilizado en la página -->
+    <meta charset="UTF-8">
+    <!-- Define la vista y escala de la página para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
+    <title>Actividad de Aprendizaje 2</title>
+    <style>
+        /* Estilos básicos para el cuerpo y HTML */
+        body,
+        html {
+            margin: 0;
+            /* Elimina márgenes por defecto */
+            padding: 0;
+            /* Elimina relleno por defecto */
+            font-family: Arial, sans-serif;
+            /* Establece la fuente para todo el texto */
+        }
+
+        /* Estilo para las páginas, que están ocultas por defecto */
+        .page {
+            display: none;
+            /* Hace que las páginas no se muestren inicialmente */
+        }
+
+        /* Estilo para la página activa */
+        .page.active {
+            display: block;
+            /* Muestra la página activa */
+        }
+
+        /* Estilo para las líneas de separación (hr) */
+        hr {
+            border: 0;
+            /* Elimina el borde por defecto */
+            border-top: 1px solid #ccc;
+            /* Crea una línea de separación */
+            margin: 20px 0;
+            /* Añade espacio arriba y abajo de la línea */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Componente Header -->
+    <app-header title="Mi Aplicación Web"></app-header>
+
+    <!-- Componente Menu -->
+    <app-menu></app-menu>
+
+    <!-- Componente Main con las Páginas -->
+    <app-main>
+        <!-- Página de inicio -->
+        <div id="home" class="page active">
+            <h2>Bienvenido a la Aplicación</h2>
+            <p>Explore las diferentes secciones usando el menú de navegación.</p>
+
+            <!-- Línea de separación -->
+            <hr>
+
+            <!-- Información personal -->
+            <p><strong>Nombre:</strong> Genesis Tito</p>
+            <p><strong>Materia:</strong> PROGRAMACIÓN INTEGRAL DE COMPONENTES WEB</p>
+            <p><strong>NRC:</strong> 1406</p>
+        </div>
+
+        <!-- Página de perfil, donde se muestra el componente de perfil social -->
+        <div id="profile" class="page">
+            <social-profile></social-profile>
+        </div>
+
+        <!-- Página de tabla, donde se muestra el componente de tabla personalizada -->
+        <div id="table" class="page">
+            <custom-table></custom-table>
+        </div>
+
+        <!-- Página de galería, donde se muestra el componente de galería de Pokémon -->
+        <div id="gallery" class="page">
+            <pokemon-gallery></pokemon-gallery>
+        </div>
+    </app-main>
+
+    <!-- Componente Footer -->
+    <app-footer company="Mi Startup Web"></app-footer>
+
+    <!-- Scripts de los componentes -->
+    <!-- Script para el componente de encabezado -->
+    <script src="components/header-component.js"></script>
+    <!-- Script para el componente de pie de página -->
+    <script src="components/footer-component.js"></script>
+    <!-- Script para el componente principal -->
+    <script src="components/main-component.js"></script>
+    <!-- Script para el componente de menú -->
+    <script src="components/menu-component.js"></script>
+    <!-- Script para el componente de perfil social -->
+    <script src="components/social-profile-component.js"></script>
+    <!-- Script para el componente de tabla personalizada -->
+    <script src="components/custom-table-component.js"></script>
+    <!-- Script para el componente de galería -->
+    <script src="components/gallery-component.js"></script>
+
+    <script>
+        // Lógica para la navegación entre páginas
+        document.addEventListener('navigate', (e) => {
+            // Obtiene la página que se debe mostrar desde el evento 'navigate'
+            const page = e.detail.page;
+            // Obtiene todas las páginas del documento
+            const pages = document.querySelectorAll('.page');
+
+            // Recorre todas las páginas y oculta las que no son activas
+            pages.forEach(p => {
+                p.classList.remove('active'); // Elimina la clase 'active' para ocultar la página
+                if (p.id === page) {
+                    p.classList.add('active'); // Añade la clase 'active' para mostrar la página correspondiente
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
