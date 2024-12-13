@@ -9,22 +9,6 @@
 
 Este proyecto tiene como objetivo la creación de una **aplicación web modular** utilizando **Web Components**, como **Custom Elements** con **Shadow DOM**, **Templates** y **Slots**, tal como lo solicita la actividad. La aplicación incluye los siguientes componentes: un encabezado, pie de página, menú de navegación, contenedor principal, perfil social, tabla personalizada y galería de imágenes. Cada componente ha sido desarrollado de manera autónoma y reutilizable, utilizando JavaScript puro (vanilla).
 
-### Estructura del Proyecto
-
-La actividad2 tiene la siguiente estructura:
-
-ACTIVIDAD2_TITO_GENESIS/
-│ ├── index.html # Archivo principal que carga la aplicación
-├── README.md # Este archivo con la descripción del proyecto
-│── components/ # Carpeta que contiene todos los componentes web
-├── header-component.js # Componente para el encabezado
-├── footer-component.js # Componente para el pie de página
-├── main-component.js # Componente para el contenido principal
-├── menu-component.js # Componente para el menú de navegación
-├── social-profile-component.js # Componente para el perfil social del usuario
-├── custom-table-component.js # Componente para la tabla dinámica de datos
-├── gallery-component.js # Componente para la galería de imágenes
-
 ### Implementación de Componentes
 
 #### 1. **Header Component** (`header-component.js`)
